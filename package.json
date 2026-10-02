@@ -1,0 +1,22 @@
+{
+  "name": "jev-inquiry-example",
+  "version": "1.0.0",
+  "description": "JEVを使った会話形式の問い合わせ分類サンプル",
+  "scripts": {
+    "start": "tsx --env-file=.env src/run.ts",
+    "test": "tsx --test src/triage.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@typesafe-ai/sdk": "0.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.4",
+    "tsx": "4.23.13",
+    "typescript": "7.0.2"
+  }
+}
